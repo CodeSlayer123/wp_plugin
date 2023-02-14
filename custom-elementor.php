@@ -2,7 +2,7 @@
 
 namespace CS;
 
-class Widgets_Loader {
+class Widget_Loader {
     private static $_instance = null;
 
     public static function instance()
