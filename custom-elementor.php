@@ -1,6 +1,14 @@
 <?php
+/**
+ * Plugin Name: My Plugin
+ * Description: First plugin
+ */
+
+ //Remove the admin bar from the front end
 namespace CS;
-require_once 'custom-elementor.php';
+add_filter('show_admin_bar', '__return_false');
+
+//require_once 'custom-elementor.php';
 
 class Widget_Loader {
     private static $_instance = null;

@@ -71,11 +71,11 @@ class Advertisement extends Widget_Base{
 
 
       protected function render(){
-        echo '<h2>I work</h2>'
+        echo '<h2>I work</h2>';
       }
 
       protected function _content_template(){
-        echo '<h2>I work</h2>'
+        echo '<h2>I work</h2>';
 
       }
 
