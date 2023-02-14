@@ -1,6 +1,6 @@
 <?php
-
 namespace CS;
+require_once 'custom-elementor.php';
 
 class Widget_Loader {
     private static $_instance = null;
