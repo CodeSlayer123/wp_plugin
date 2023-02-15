@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: My Plugin
- * Description: First plugin
+ * Plugin Name: My Elementor Widget Plugin
+ * Description: Elementor Widget plugin
  */
 
  //Remove the admin bar from the front end
 namespace CS;
-add_filter('show_admin_bar', '__return_false');
+//add_filter('show_admin_bar', '__return_false');
 
 //require_once 'custom-elementor.php';
 
